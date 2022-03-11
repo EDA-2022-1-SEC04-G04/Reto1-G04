@@ -153,8 +153,6 @@ def getLastThreeTracks(catalog):
 
 def getAlbumsRange(catalog, fechaI, fechaF):
     
-    # inicio = int(fechaI)
-    # final = int(fechaF)
     albums = catalog['albums']['elements']
     merge_sort_result  = merge_sort(albums)
     ret = []
